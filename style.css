@@ -1,0 +1,80 @@
+body {
+   background-color: gray;
+}
+header, div, footer {
+   border: 1px solid white;
+   border-radius: 10px;
+   padding: 5px;
+   margin: auto;
+   width: 800px;
+   text-align: justify;
+   background-color: white;
+}
+footer{
+   text-align: center;
+}
+h1{
+   padding: 20px;
+}
+img {
+   float: left;
+   padding-right: 10px;
+}
+ul{
+   clear: both;
+   list-style-type: none;
+   left: 152px;
+}
+li.ul1 {
+   display: inline;
+}
+ul.ul2{
+   display: none;
+   position: absolute;
+   top: 100%;
+   background: white;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 5px;
+   left: 0px;
+}
+li#li2:hover .ul2 {
+   display: block;
+}
+.ul1{
+   position: relative;
+}
+p, ul, dl{
+   margin: 0;
+}
+ul.tech{
+   display: block;
+   list-style-type: disc;
+}
+
+table {
+   margin: auto;
+   border-collapse: collapse;
+   border: white;
+}
+td {
+   height: 30px;
+   width: 60px; 
+}
+td input {
+   height: 100%;
+   width: 100%;
+}
+.result {
+   height: 24px;
+   width: 315px; 
+}  
+aside{
+   width: 25%;
+   float: right;
+   background: silver;
+   border-radius: 10px;
+   padding: 5px;
+   margin-left: 5px;
+   font: 80% serif;
+}

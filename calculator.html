@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Калькулятор</title>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <header>
+         <p><img src="webLogo.png" alt="page" height="100"></p>
+         <h1>Основы Web-технологий</h1>
+         <nav>
+            <ul class="ul1">
+               <li class="ul1"><a href="index.html">Главная</a></li>
+               <li class="ul1" id="li2"><a href="tehnologies.html">Web-технологии</a>
+                  <ul class="ul2"> 
+                     <li class="ul2"><a href="html5.html">HTML5</a></li>
+                     <li class="ul2"><a href="css3.html">CSS3</a></li>
+                     <li class="ul2"><a href="javaScript.html">JavaScript</a></li>
+                  </ul></li>
+               <li class="ul1"><a href="calculator.html">Калькулятор</a></li>
+               <li class="ul1"><a href="test.html">Тест</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div><form name="calculator">
+         <table border="1">
+            <tr>
+               <td colspan="5"><input class="result" type="text" name="result"></td>        
+            </tr>           
+            <tr>
+               <td><input type="button" name="seven" value="7"></td>
+               <td><input type="button" name="eight" value="8"></td>
+               <td><input type="button" name="nine" value="9"></td>
+               <td><input type="button" name="split" value="/"></td>
+               <td><input type="button" name="reset" value="C"></td>
+            </tr>
+            <tr>
+               <td><input type="button" name="four" value="4"></td>
+               <td><input type="button" name="five" value="5"></td>
+               <td><input type="button" name="six" value="6"></td>
+               <td><input type="button" name="multiply" value="*"></td>
+               <td><input type="button" name="plus-minus" value="&#177;"></td>
+            </tr>
+            <tr>
+               <td><input type="button" name="one" value="1"></td>
+               <td><input type="button" name="two" value="2"></td>
+               <td><input type="button" name="three" value="3"></td>
+               <td><input type="button" name="minus" value="-"></td>
+               <td rowspan="2"><input type="button" name="equally" value="="></td>
+            </tr>
+            <tr>
+               <td colspan="2"><input type="button" name="zero" value="0"></td>
+               <td><input type="button" name="del" value="."></td>
+               <td><input type="button" name="plus" value="+"></td>
+            </tr>        
+         </table>
+      </form></div>
+      <footer>
+         <address>
+         Пишите <a href="mailto:mail@mail">mail@mail</a>
+         </address>
+         <p> &copy; Фамилия И.О., год </p>
+      </footer>
+   </body>
+</html>
