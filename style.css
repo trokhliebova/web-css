@@ -51,14 +51,15 @@ ul.tech{
    display: block;
    list-style-type: disc;
 }
-
 table {
-   margin: auto;
-   border-collapse: collapse;
-   border: white;
+   margin: auto;   
 }
 td {
    height: 30px;
+   width: 60px; 
+}
+td.equally {
+   height: 64px;
    width: 60px; 
 }
 td input {
